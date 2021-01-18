@@ -1,7 +1,7 @@
-package com.gintire.springboottest.infrastructure;
+package com.gintire.test.infrastructure;
 
-import com.gintire.springboottest.domain.Gender;
-import com.gintire.springboottest.domain.User;
+import com.gintire.test.domain.Gender;
+import com.gintire.test.domain.User;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

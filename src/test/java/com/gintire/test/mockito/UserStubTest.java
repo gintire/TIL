@@ -1,22 +1,19 @@
-package com.gintire.springboottest.mockito;
+package com.gintire.test.mockito;
 
-import com.gintire.springboottest.application.UserService;
-import com.gintire.springboottest.domain.Gender;
-import com.gintire.springboottest.domain.User;
-import com.gintire.springboottest.infrastructure.UserRepository;
+import com.gintire.test.application.UserService;
+import com.gintire.test.domain.Gender;
+import com.gintire.test.domain.User;
+import com.gintire.test.infrastructure.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.jupiter.api.Assertions.fail;
 import static org.mockito.BDDMockito.*;
-import static org.mockito.Mockito.*;
 
 /**
  * Project: spring-boot-test

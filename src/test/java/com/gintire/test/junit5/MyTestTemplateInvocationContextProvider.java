@@ -1,4 +1,4 @@
-package com.gintire.springboottest.junit5;
+package com.gintire.test.junit5;
 
 import org.junit.jupiter.api.extension.*;
 

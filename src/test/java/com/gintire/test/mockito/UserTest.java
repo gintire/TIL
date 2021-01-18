@@ -1,8 +1,8 @@
-package com.gintire.springboottest.mockito;
+package com.gintire.test.mockito;
 
-import com.gintire.springboottest.application.UserService;
-import com.gintire.springboottest.domain.Gender;
-import com.gintire.springboottest.domain.User;
+import com.gintire.test.application.UserService;
+import com.gintire.test.domain.Gender;
+import com.gintire.test.domain.User;
 import org.assertj.core.api.Assertions;
 import org.junit.Assert;
 import org.junit.jupiter.api.BeforeEach;

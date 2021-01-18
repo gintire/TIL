@@ -1,10 +1,10 @@
-package com.gintire.springboottest.junit5;
+package com.gintire.test.junit5;
 
-import com.gintire.springboottest.application.UserService;
-import com.gintire.springboottest.domain.Fixture;
-import com.gintire.springboottest.domain.Gender;
-import com.gintire.springboottest.domain.Shape;
-import com.gintire.springboottest.domain.User;
+import com.gintire.test.application.UserService;
+import com.gintire.test.domain.Fixture;
+import com.gintire.test.domain.Gender;
+import com.gintire.test.domain.Shape;
+import com.gintire.test.domain.User;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;

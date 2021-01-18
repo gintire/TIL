@@ -1,4 +1,4 @@
-package com.gintire.springboottest.junit5.utils;
+package com.gintire.test.junit5.utils;
 
 import org.junit.platform.engine.ConfigurationParameters;
 import org.junit.platform.engine.support.hierarchical.ParallelExecutionConfiguration;

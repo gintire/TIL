@@ -1,4 +1,4 @@
-package com.gintire.springboottest.domain;
+package com.gintire.test.domain;
 
 public class Fixture {
     public static int apiVersion() {

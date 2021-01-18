@@ -1,4 +1,4 @@
-package com.gintire.springboottest.domain;
+package com.gintire.test.domain;
 
 /**
  * Project: spring-boot-test

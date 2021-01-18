@@ -1,4 +1,4 @@
-package com.gintire.springboottest.mockito;
+package com.gintire.test.mockito;
 
 import java.util.AbstractList;
 

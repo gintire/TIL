@@ -1,6 +1,5 @@
-package com.gintire.springboottest.domain;
+package com.gintire.test.domain;
 
-import java.util.Date;
 import java.util.Objects;
 
 public class User {

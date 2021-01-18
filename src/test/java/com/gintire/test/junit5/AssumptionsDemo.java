@@ -1,6 +1,6 @@
-package com.gintire.springboottest.junit5;
+package com.gintire.test.junit5;
 
-import com.gintire.springboottest.domain.Calculator;
+import com.gintire.test.domain.Calculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

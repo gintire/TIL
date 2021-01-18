@@ -23,7 +23,7 @@ plugin 추가
                 <version>2.1.0</version>
                 <configuration>
                     <classes>
-                        <param>com.gintire.springboottest.domain.Player</param>
+                        <param>com.gintire.test.domain.Player</param>
                     </classes>
                 </configuration>
             </plugin>
@@ -34,7 +34,7 @@ mvn 실행
 mvn assertj:generate-assertions
 ```
 
-target.generated-test-sources.assertj-assertions.com.gintire.springboottest.domain아래에   
+target.generated-test-sources.assertj-assertions.com.gintire.test.domain아래에   
 <class명>Assert라는 클래스가 생성된다.  
 
 해당 클래스 내부에 assertThat문이 있고, Abstract<클래스명>Assert를 보면, 프로퍼티에 따라 메서드들이 생성되어있다.  

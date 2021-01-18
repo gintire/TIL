@@ -1,7 +1,7 @@
-package com.gintire.springboottest.interfaces;
+package com.gintire.test.interfaces;
 
-import com.gintire.springboottest.application.UserService;
-import com.gintire.springboottest.domain.User;
+import com.gintire.test.application.UserService;
+import com.gintire.test.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

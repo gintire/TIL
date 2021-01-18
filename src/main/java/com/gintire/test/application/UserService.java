@@ -1,7 +1,7 @@
-package com.gintire.springboottest.application;
+package com.gintire.test.application;
 
-import com.gintire.springboottest.domain.User;
-import com.gintire.springboottest.infrastructure.UserRepository;
+import com.gintire.test.domain.User;
+import com.gintire.test.infrastructure.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

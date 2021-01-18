@@ -1,8 +1,8 @@
-package com.gintire.springboottest.junit5;
+package com.gintire.test.junit5;
 
-import com.gintire.springboottest.domain.Calculator;
-import com.gintire.springboottest.domain.Gender;
-import com.gintire.springboottest.domain.User;
+import com.gintire.test.domain.Calculator;
+import com.gintire.test.domain.Gender;
+import com.gintire.test.domain.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 

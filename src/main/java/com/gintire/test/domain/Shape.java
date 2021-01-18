@@ -1,4 +1,4 @@
-package com.gintire.springboottest.domain;
+package com.gintire.test.domain;
 
 public class Shape {
     private final int numberOfSides;

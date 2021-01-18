@@ -1,7 +1,7 @@
-package com.gintire.springboottest.assertj;
+package com.gintire.test.assertj;
 
-import com.gintire.springboottest.domain.Player;
-import com.gintire.springboottest.domain.PlayerAssert;
+import com.gintire.test.domain.Player;
+import com.gintire.test.domain.PlayerAssert;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

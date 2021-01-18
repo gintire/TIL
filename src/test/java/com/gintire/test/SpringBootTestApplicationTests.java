@@ -1,4 +1,4 @@
-package com.gintire.springboottest;
+package com.gintire.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

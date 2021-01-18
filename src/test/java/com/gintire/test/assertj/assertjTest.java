@@ -1,4 +1,4 @@
-package com.gintire.springboottest.assertj;
+package com.gintire.test.assertj;
 
 /**
  * Project: spring-boot-test
@@ -12,8 +12,8 @@ package com.gintire.springboottest.assertj;
  * To change this template use File | Settings | File Templates.
  */
 
-import com.gintire.springboottest.domain.Gender;
-import com.gintire.springboottest.domain.User;
+import com.gintire.test.domain.Gender;
+import com.gintire.test.domain.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

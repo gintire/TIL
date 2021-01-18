@@ -1,4 +1,4 @@
-package com.gintire.springboottest.domain;
+package com.gintire.test.domain;
 
 public enum Gender {
     MALE("남성"),
