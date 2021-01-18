@@ -1,16 +1,22 @@
-# spring-boot-test-study
+# 2021 플랜
 ---
 
-### 목표
-
-* spring-boot-starter-test 에 대해서 연구한다.
-* Junit5 사용법에 대해 학습한다.
-* assertj 사용법에 대해 학습한다.
-* mockito 사용법에 대해서 학습한다.
-
-
----
-### Junit5 사용법에 대해 연구
-> https://blog.jetbrains.com/idea/2020/09/writing-tests-with-junit-5/?gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSbbwpryCT-CKVlc9EEh3MezPAV3S29yG_hWD6UvTPgy1r-MxGT9GkwaAkAWEALw_wcB
+## 목표
+> 잔디를 심어 건물을 올리자
+### Application - spring
+* spring-boot-starter-test 기초 연구
+* spring-jpa 기초 연구
+* spring-cloud 기초 연구
+### Application - React
+* Redux-thunk 정리 ( 했던거 그냥 정리 )
+* 업무 정리 ( 했던거 그냥 정리 )
+### CI / CD
+* 젠킨스 pipeline들 정리 ( 했던거 그냥 정리 )
+* Ansible 정리 ( 했던거 그냥 정리 )
+### Infrastructure
+* k8s 올리는거 파일 정리
+    * ELK 스택 k8s에 올리기
+### 컴퓨터 기초 공부
+* 인프라의 기본? 서적 스터디하며 정리
 
 
