@@ -14,14 +14,13 @@ package com.gintire.springboottest.assertj;
 
 import com.gintire.springboottest.domain.Gender;
 import com.gintire.springboottest.domain.User;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class assertjTest {
     List<User> fellowshipOfTheRing;

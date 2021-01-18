@@ -27,4 +27,5 @@ public class UserRepository {
         }
         return null;
     }
+    public void putUser(User user) {users.add(user);}
 }

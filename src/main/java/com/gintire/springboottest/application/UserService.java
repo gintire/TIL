@@ -17,6 +17,12 @@ public class UserService {
     }
 
     public User getUser(String name) {
+        if(name.equals("") || name.isEmpty()) return null;
         return userRepository.getUser(name);
+    }
+
+    public void setUser(User user) {
+        if(user.equals(null)) return;
+        userRepository.putUser(user);
     }
 }
