@@ -1,0 +1,6 @@
+= 유저
+== 유저 조회
+include::{snippets}/user-documentation-tests/search/http-request.adoc[]
+include::{snippets}/user-documentation-tests/search/path-parameters.adoc[]
+include::{snippets}/user-documentation-tests/search/http-response.adoc[]
+include::{snippets}/user-documentation-tests/search/response-fields.adoc[]

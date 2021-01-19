@@ -64,11 +64,11 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", gender=" + gender +
+        return "{" +
+                "\"id\":" + id +
+                ",\"name\":\"" + name + '\"' +
+                ",\"age\":" + age +
+                ",\"gender\":\"" + gender +"\"" +
                 '}';
     }
 }
