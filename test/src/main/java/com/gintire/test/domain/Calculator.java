@@ -2,7 +2,7 @@ package com.gintire.test.domain;
 
 /**
  * Project: spring-boot-test
- * Package: com.gintire.springboottest.domain
+ * Package: com.gintire.springboottest.com.gintire.rosemary.domain
  * <p>
  * User: jin36
  * Date: 2021-01-07

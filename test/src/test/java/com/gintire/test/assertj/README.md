@@ -23,7 +23,7 @@ plugin 추가
                 <version>2.1.0</version>
                 <configuration>
                     <classes>
-                        <param>com.gintire.test.domain.Player</param>
+                        <param>com.gintire.test.com.gintire.rosemary.domain.Player</param>
                     </classes>
                 </configuration>
             </plugin>

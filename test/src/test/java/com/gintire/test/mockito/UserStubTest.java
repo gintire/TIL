@@ -47,10 +47,10 @@ public class UserStubTest {
         when(userRepository.getUser("lily"))
                 .thenThrow(RuntimeException.class);
 
-        // void return typ
+/*        // void return type
         doThrow(RuntimeException.class)
                 .when(userRepository)
-                .putUser(null);
+                .putUser(null);*/
     }
 
     @Test

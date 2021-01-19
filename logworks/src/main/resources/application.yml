@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    actions: test
+---
+spring:
+  profiles: test
+  application:
+    name: rosem
+  datasource:
+    hikari:
+      jdbc-url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
+      username: sa
+      password:
+      driver-class-name: org.h2.Driver
+    data: classpath*:data-test.sql
+  jpa:
+    database-platform: H2
+    # Hibernate ddl auto
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+logging:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN
+rosemary:
+  system:
+    check:
+      interval: 10
+      retry-count: 3
+
