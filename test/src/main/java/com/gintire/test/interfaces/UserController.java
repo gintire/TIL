@@ -32,7 +32,7 @@ public class UserController {
         return userService.getUser(name);
     }
 
-    @GetMapping(value = "/{id}")
+    @GetMapping(value = "/name/{id}")
     public String findById(@PathVariable("id") Long id, HttpServletResponse httpServletResponse) {
         try {
             String username = userService.getUser("id").getName();

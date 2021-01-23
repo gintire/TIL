@@ -99,6 +99,13 @@ Spring boot는 속성을 사용하여 이러한 기능을 구성할 수 있다.
 * server.error.whitelabel.enabled: Whitelabel 오류 페이지를 비활성화하고 서블릿 컨테이너에 의존하여 HTML 오류 메시지를 제공하는 데 사용할 수 있습니다.
 * server.error.include-stacktrace: 항상 값을 사용합니다. HTML 및 JSON 기본 응답 모두에 스택 추적을 포함합니다.  
 
+```
+server.error.include-exception : 오류 응답에 exception의 내용을 포함할지 여부 (TRUE, FALSE) 
+server.error.include-stacktrace : 오류 응답에 stacktrace 내용을 포함할지 여부 (ALWAYS, NEVER, ON_TRACE_PARAM) 
+server.error.path : 오류 응답을 처리할 핸들러(ErrorController)의 path 
+server.error.whitelabel.enabled : 브라우저 요청에 대해 서버 오류시 기본으로 노출할 페이지를 사용할지 여부 (TRUE, FALSE)
+```
+
 이러한 속성 외에도 Whitelabel 페이지를 재정 의하여 / error에 대한 자체 뷰-리졸버 매핑을 제공 할 수 있습니다.
   
 컨텍스트에 ErrorAttributes 빈을 포함하여 응답에 표시 할 속성을 맞춤 설정할 수도 있습니다. Spring Boot에서 제공하는 DefaultErrorAttributes 클래스를 확장하여 작업을 더 쉽게 할 수 있습니다.
