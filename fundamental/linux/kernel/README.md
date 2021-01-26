@@ -5,7 +5,7 @@
 4. free 명령이 숨기고 있는 것들
 5. swap, 메모리 증설의 포인트
 6. NUMA, 메모리 관리의 새로운 세계
-7. TIME_WAIT 소켓이 서비스에 미치는 영향
+7. ~~TIME_WAIT 소켓이 서비스에 미치는 영향~~
 8. TCP keepalive를 이용한 세션 유지
 9. TCP 재전송과 타임아웃
 10. dirty page가 I/O에 끼치는 영향
