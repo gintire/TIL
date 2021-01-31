@@ -56,8 +56,10 @@ public class Main {
         TestEmum testEmum = new TestEmum();
         testEmum.applyStyles(EnumSet.of(TestEmum.Style.BOLD, TestEmum.Style.ITALIC));
 
-        Herb[] garden = new Herb[1];
-        garden[0] = new Herb("a", Herb.Type.ANNUAL);
+        Herb[] garden = new Herb[3];
+        garden[0] = new Herb("Basil", Herb.Type.ANNUAL);
+        garden[1] = new Herb("Lovage", Herb.Type.PERENNIAL);
+        garden[2] = new Herb("Angelica", Herb.Type.BIENNIAL);
 
         Map<Herb.Type, Set<Herb>> herbsByType = new EnumMap<Herb.Type, Set<Herb>>(Herb.Type.class);
         for(Herb.Type t : Herb.Type.values()) herbsByType.put(t, new HashSet<>());
