@@ -3,4 +3,4 @@
 2. ~~Ingress~~ [Ingress](./management/ingress.md)
 3. ~~Loadbalance~~ [loadbalancer](./management/loadbalancer.md)
 4. ~~Local Registry~~ [Local Registry](./management/localRegistry.md)
-
+5. ~~Private Registries~~ [Private Registries](./management/privateRegistries.md)
