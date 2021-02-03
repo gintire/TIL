@@ -1,4 +1,7 @@
 # AWS 네트워크
+> https://jonnung.dev/kubernetes/2020/03/01/create-kubernetes-cluster-using-kubeadm-on-aws-ec2/
+
+
 ## VPC 만들기
 VPC는 논리적 독립 네트워크를 구성할 수 있게 해주는 AWS 리소스이다.   AWS 계정을 만들면 기본 VPC (default)가 하나 생성되며 이 VPC를 사용해도 상관없다. 하지만 실전에 근접한 실습을 위해 새로운 VPC를 만든다.  
 
