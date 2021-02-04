@@ -58,3 +58,58 @@ Client Version: version.Info{Major:"1", Minor:"17", GitVersion:"v1.17.3", GitCom
 ```
 
 ## 마스터 노드 생성
+AWS 프리티어를 이용해서 `t2.micro` 타입의 EC2 인스턴슬르 만들었다.  
+`t2.micro` 인스턴스 타입은 vCPU 1이기 때문에 클러스터 최소 요구 사항을 만족하지 않는다. 하지만 Production 환경이 아니기 때문에 조금 무리해서라도 해보기로 한다.  
+쿠버네티스 마스터 노드를 초기화 하는 명령어를 실행한다.  
+`--apiserver-advertise-address` 파라미터는 다른 노드가 마스터 노드에 접근할 수 있는 IP 주소를 명시한다.  
+`--pod-network-cide` 파라미터는 쿠버네티스에서 사용할 컨테이너의 네트워크 대역을 지정한다. 실제 서버에 할당된 IP와 중복되지 않도록 해야 한다.  
+다음 단계에서 진행할 네트워크 플러그인 설치 과정에서 Calico를 설치할 계획이라 CIDR 범위를 `192.168.0.0/16`로 지정했다.  
+만약 Flannel을 사용한다면 `10.244.0.0/16`을 사용해야 한다.  
+`--apiserver-cert-extra-sans` 파라미터도 중요하다. 이 값에는 쿠버네티스가 생성한 TLS 인증서에 적용할 IP 또는 도메인을 명시할 수 있다.  
+만약 개발자 로컬 환경에서 `kubectl`을 통해 이 클러스터에 접근하려면 `kube-apiserver`와 통신할 수 있어야 하기 때문에 마스터 노드가 실행되고 있는 EC2 인스턴스의 퍼블릭 IP 주소를 추가해야 한다.
+```
+kubeadm init \
+    --apiserver-advertise-address=0.0.0.0 \
+    --pod-network-cidr=192.168.0.0/16 \
+    --apiserver-cert-extra-sans=10.1.1.10,3.**<실제 퍼블릭 IP>.68.159
+```
+위 명령어를 실행하면 아래와 같은 WARNING 과 ERROR 가 보일 것이다.
+```
+[init] Using Kubernetes version: v1.20.2-agent     software-properties-commonubuntu/gpg | sudo apt-key add -
+[preflight] Running pre-flight checks
+        [WARNING IsDockerSystemdCheck]: detected "cgroupfs" as the Docker cgroup driver. The recommended driver is "systemd". Please follow the guide at https://kubernetes.io/docs/setup/cri/
+        [WARNING SystemVerification]: this Docker version is not on the list of validated versions: 20.10.3. Latest validated version: 19.03
+error execution phase preflight: [preflight] Some fatal errors occurred:
+        [ERROR NumCPU]: the number of available CPUs 1 is less than the required 2
+        [ERROR Mem]: the system RAM (978 MB) is less than the minimum 1700 MB
+[preflight] If you know what you are doing, you can make a check non-fatal with `--ignore-preflight-errors=...`
+To see the stack trace of this error execute with --v=5 or higher
+```
+WARNING 메시지에서 etected "cgroupfs" as the Docker cgroup driver. The recommended driver is "systemd". 라며 Docker가 사용하는 Cgroup(Control Group) 드라이버를 systemd로 바꾸는 것을 권장하고 있다.  
+Cgroup은 프로세스에 할당된 리소스를 제한하는데 사용된다. Ubuntu는 init 시스템으로 systemd를 사용하고 있고 systemd가 Cgroup관리자로써 작동하게 된다.  
+그런데 Docker 가 사용하는 Cgroup 관리자가 `cgroupfs`인 경우 리소스가 부족할 때 시스템이 불안정해지는 경우가 있다고 한다. 단일 Cgroup관리자가 일관성 있게 리소스를 관리하도록 단순화 하는 것이 좋다고 한다.
+자세한 내용은 [쿠버네티스 공식 문서](https://kubernetes.io/ko/docs/setup/production-environment/#cgroup-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84)를 확인
+
+```
+# Docker가 사용하는 Cgroup driver 확인하기
+$ docker info | grep -i cgroup
+WARNING: No swap limit support
+ Cgroup Driver: cgroupfs
+```
+Docker 설정에 Cgroup driver를 바꾸려면 `/lib/systemd/system/docker.service`을 열어서 아래 구문을 찾아 `--exec-opt native.cgroupdriver=systemd` 파라미터를 추가한 뒤 저장한다.
+```
+ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock --exec-opt native.cgroupdriver=systemd
+```
+systemd를 리로드하고 도커를 재시작한다.
+```
+systemctl daemon-reload
+systemctl restart docker
+```
+ERROR 메시지에서는 쿠버네티스가 권장 CPU 개수 2개보다 현재 시스템이 가진 CPU 개수가 적어서 발생한 에러다. 실습을 위해 AWS 프리 티어를 이용해 만든 EC2(t2.micro)라서 어쩔 수 없다. 이 오류를 무시하는 옵션을 추가한다.
+```
+kubeadm init \
+    --apiserver-advertise-address=0.0.0.0 \
+    --pod-network-cidr=192.168.0.0/16 \
+    --apiserver-cert-extra-sans=10.1.1.10,3.**<실제 퍼블릭 IP>.68.159 \
+    --ignore-preflight-errors=NumCPU
+```
