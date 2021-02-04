@@ -29,7 +29,8 @@
 ## Kubeadm, Kuebelet, Kubectl 설치
 ssh로 접속
 ```
-ssh -i "k8s.id_rsa" ubuntu@ec2-3-19-68-159.us-east-2.compute.amazonaws.com
+## 마스터 노드
+ssh -i "k8s.id_rsa" ubuntu@<instance_id>.compute.amazonaws.com
 ```
 
 ```
@@ -56,3 +57,4 @@ $ kubectl version
 Client Version: version.Info{Major:"1", Minor:"17", GitVersion:"v1.17.3", GitCommit:"06ad960bfd03b39c8310aaf92d1e7c12ce618213", GitTreeState:"clean", BuildDate:"2020-02-11T18:14:22Z", GoVersion:"go1.13.6", Compiler:"gc", Platform:"linux/amd64"}
 ```
 
+## 마스터 노드 생성
