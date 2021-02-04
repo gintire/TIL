@@ -27,4 +27,32 @@
     * TCP - Inbound - 30000~32767: NodePort Services (used by All)
 
 ## Kubeadm, Kuebelet, Kubectl 설치
+ssh로 접속
+```
+ssh -i "k8s.id_rsa" ubuntu@ec2-3-19-68-159.us-east-2.compute.amazonaws.com
+```
+
+```
+sudo apt-get update && sudo apt-get install -y apt-transport-https curl
+
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+
+cat <<EOF | sudo tee /etc/apt/sources.list.d/kubernetes.list
+deb https://apt.kubernetes.io/ kubernetes-xenial main
+EOF
+
+sudo apt-get update
+sudo apt-get install -y kubelet kubeadm kubectl
+
+# 패키지 버전 홀드 ( 업데이트에서 제외 )
+sudo apt-mark hold kubelet kubeadm kubectl 
+```
+설치가 완료 되었다면 `kubeadm`, `kubectl` 버전을 확인해본다.
+```
+$ kubeadm version
+kubeadm version: &version.Info{Major:"1", Minor:"17", GitVersion:"v1.17.3", GitCommit:"06ad960bfd03b39c8310aaf92d1e7c12ce618213", GitTreeState:"clean", BuildDate:"2020-02-11T18:12:12Z", GoVersion:"go1.13.6", Compiler:"gc", Platform:"linux/amd64"}
+
+$ kubectl version
+Client Version: version.Info{Major:"1", Minor:"17", GitVersion:"v1.17.3", GitCommit:"06ad960bfd03b39c8310aaf92d1e7c12ce618213", GitTreeState:"clean", BuildDate:"2020-02-11T18:14:22Z", GoVersion:"go1.13.6", Compiler:"gc", Platform:"linux/amd64"}
+```
 
