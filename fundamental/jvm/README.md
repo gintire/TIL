@@ -8,6 +8,5 @@ JVM을 공부를 하고있지만 정말 제대로 알고있진 못함.
 * JVM Architecture
 * GC 종류 및 원리
 * G1GC 튜닝
-
-
-
+* Thread Dump
+* JVM parameters
