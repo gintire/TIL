@@ -113,3 +113,15 @@ kubeadm init \
     --apiserver-cert-extra-sans=10.1.1.10,3.**<실제 퍼블릭 IP>.68.159 \
     --ignore-preflight-errors=NumCPU
 ```
+
+`t2.micro`로 EC2 인스턴스를 생성하면 k8s cluster를 만드는데 메모리가 부족할 수 있다. 다음은 위 명령어를 사용했을 때 발생할 수 있는, 에러메시지이다.
+```
+[init] Using Kubernetes version: v1.20.2
+[preflight] Running pre-flight checks
+        [WARNING NumCPU]: the number of available CPUs 1 is less than the required 2
+        [WARNING SystemVerification]: this Docker version is not on the list of validated versions: 20.10.3. Latest validated version: 19.03
+error execution phase preflight: [preflight] Some fatal errors occurred:
+        [ERROR Mem]: the system RAM (978 MB) is less than the minimum 1700 MB
+[preflight] If you know what you are doing, you can make a check non-fatal with `--ignore-preflight-errors=...`
+To see the stack trace of this error execute with --v=5 or higher
+```
