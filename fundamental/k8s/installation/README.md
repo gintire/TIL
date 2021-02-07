@@ -135,7 +135,7 @@ $ docker pull nginx:1.19.6
 $ kind load docker-image nginx:1.19.6
 
 ### check
-~$ docker exec -it kind-control-plane crictl images
+$ docker exec -it kind-control-plane crictl images
 IMAGE                                      TAG                  IMAGE ID            SIZE
 docker.io/kindest/kindnetd                 v20200725-4d6bea59   b77790820d015       119MB
 docker.io/library/nginx                    1.19.6               f6d0b4767a6c4       137MB
