@@ -19,3 +19,44 @@
 
 [쿠버네티스를 활용한 클라우드 네이티브 데브옵스]
 1. 
+
+[CKA - [Go to Learn](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests)]
+1. ~~Introduction~~
+2. Core Concepts 3시간 2분
+   * ~~Core Concepts Section Introduction~~
+   * ~~Cluster Architecture~~
+   * ~~ETCD For Beginners~~
+   * ~~Kube-API Server~~
+   * ~~Kube Controller Manager~~
+   * ~~Kube Scheduler~~
+   * ~~Kubelet~~
+   * ~~Kube Proxy~~
+   * ~~Recap -POD~~
+   * PODs with YAML (2021.02.07)
+   * Demo - PODs with YAML (2021.02.07)
+   * Practice Test Introduction (2021.02.07)
+   * Demo: Accessing Labs (2021.02.07)
+   * Recap - ReplicaSets (2021.02.07)
+   * Deployments (2021.02.07)
+   * Namespaces (2021.02.07)
+   * Services (2021.02.07)
+   * Services Cluster IP (2021.02.07)
+   * Services - Loadbalancer (2021.02.07)
+   * Practice ( Pods, ReplicaSets, Deployments, Namespaces, Services) (2021.02.07)
+   * Imperative vs Declarative
+   * Kubectl Apply Command
+3. Scheduling 1시간 50분
+4. Logging & Monitoring 13분 
+5. Application Lifecycle Management 1시간 31분
+6. Cluster Maintenance 1시간 11분
+7. Security 2시간 12분
+8. Storage 55분
+9. Networking 3시간 6분
+10. Design and Install a Kubernetes Cluster 32분
+11. Install "Kubernetes the kubeadm way" 29분
+12. End to End Tests on a Kubernetes Cluster 1분
+13. Troubleshooting 1시간
+14. Other Topics 13분
+15. Lightning Labs 1분
+16. Mock Exams 1시간 56분
+17. Course Conclusion 1분
