@@ -32,17 +32,17 @@
    * ~~Kubelet~~
    * ~~Kube Proxy~~
    * ~~Recap -POD~~
-   * PODs with YAML (2021.02.07)
-   * Demo - PODs with YAML (2021.02.07)
-   * Practice Test Introduction (2021.02.07)
-   * Demo: Accessing Labs (2021.02.07)
-   * Recap - ReplicaSets (2021.02.07)
-   * Deployments (2021.02.07)
-   * Namespaces (2021.02.07)
-   * Services (2021.02.07)
-   * Services Cluster IP (2021.02.07)
-   * Services - Loadbalancer (2021.02.07)
-   * Practice ( Pods, ReplicaSets, Deployments, Namespaces, Services) (2021.02.07)
+   * ~~PODs with YAML (2021.02.07)~~
+   * ~~Demo - PODs with YAML (2021.02.07)~~
+   * ~~Practice Test Introduction (2021.02.07)~~
+   * ~~Demo: Accessing Labs (2021.02.07)~~
+   * ~~Recap - ReplicaSets (2021.02.07)~~
+   * ~~Deployments (2021.02.07)~~
+   * ~~Namespaces (2021.02.07)~~
+   * ~~Services (2021.02.07)~~
+   * ~~Services Cluster IP (2021.02.07)~~
+   * ~~Services - Loadbalancer (2021.02.07)~~
+   * ~~Practice ( Pods, ReplicaSets, Deployments, Namespaces, Services) (2021.02.07)~~
    * Imperative vs Declarative
    * Kubectl Apply Command
 3. Scheduling 1시간 50분
