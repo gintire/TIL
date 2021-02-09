@@ -43,7 +43,7 @@
    * ~~Services Cluster IP (2021.02.07)~~
    * ~~Services - Loadbalancer (2021.02.07)~~
    * ~~Practice ( Pods, ReplicaSets, Deployments, Namespaces, Services) (2021.02.07)~~
-   * Imperative vs Declarative
+   * ~~Imperative vs Declarative~~
    * Kubectl Apply Command
 3. Scheduling 1시간 50분
 4. Logging & Monitoring 13분 
