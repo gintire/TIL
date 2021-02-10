@@ -50,7 +50,7 @@
    * ~~Labels and Selectors(2021.02.10)~~
    * ~~Taints and Tolerations(2021.02.10)~~
    * ~~NodeSelectors(2021.02.10)~~
-   * Node Affinity
+   * ~~Node Affinity(2021.02.10)~~
 4. Logging & Monitoring 13분 
 5. Application Lifecycle Management 1시간 31분
 6. Cluster Maintenance 1시간 11분
