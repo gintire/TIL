@@ -43,9 +43,14 @@
    * ~~Services Cluster IP (2021.02.07)~~
    * ~~Services - Loadbalancer (2021.02.07)~~
    * ~~Practice ( Pods, ReplicaSets, Deployments, Namespaces, Services) (2021.02.07)~~
-   * ~~Imperative vs Declarative~~
-   * Kubectl Apply Command
+   * ~~Imperative vs Declarative(2021.02.08)~~
+   * ~~Kubectl Apply Command(2021.02.09)~~
 3. Scheduling 1시간 50분
+   * ~~Manual Scheduling(2021.02.09)~~
+   * ~~Labels and Selectors(2021.02.10)~~
+   * ~~Taints and Tolerations(2021.02.10)~~
+   * ~~NodeSelectors(2021.02.10)~~
+   * Node Affinity
 4. Logging & Monitoring 13분 
 5. Application Lifecycle Management 1시간 31분
 6. Cluster Maintenance 1시간 11분
