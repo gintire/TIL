@@ -51,7 +51,8 @@
    * ~~Taints and Tolerations(2021.02.10)~~
    * ~~NodeSelectors(2021.02.10)~~
    * ~~Node Affinity(2021.02.10)~~
-   * 설날 휴무
+   * Taints and Tolerations vs NOde Affinity ( 2021.02.13 )
+   * Resource Requirements and Limits (2021.02.13)
 4. Logging & Monitoring 13분 
 5. Application Lifecycle Management 1시간 31분
 6. Cluster Maintenance 1시간 11분
