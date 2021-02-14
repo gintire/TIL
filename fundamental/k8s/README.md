@@ -51,8 +51,8 @@
    * ~~Taints and Tolerations(2021.02.10)~~
    * ~~NodeSelectors(2021.02.10)~~
    * ~~Node Affinity(2021.02.10)~~
-   * Taints and Tolerations vs NOde Affinity (2021.02.14)
-   * Resource Requirements and Limits (2021.02.14)
+   * ~~Taints and Tolerations vs NOde Affinity (2021.02.14)~~
+   * ~~Resource Requirements and Limits (2021.02.14)~~
    * DaemonSets (2021.02.14)
    * Static pods (2021.02.14)
    * Multiple Schedulers (2021.02.14)
