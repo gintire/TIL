@@ -54,7 +54,7 @@
    * ~~Taints and Tolerations vs NOde Affinity (2021.02.14)~~
    * ~~Resource Requirements and Limits (2021.02.14)~~
    * ~~DaemonSets (2021.02.15)~~
-   * Static pods (2021.02.15)
+   * ~~Static pods (2021.02.15)~~
    * Multiple Schedulers (2021.02.15)
    * 
 4. Logging & Monitoring 13분 
