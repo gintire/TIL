@@ -43,5 +43,15 @@ systemd-timesync 서비스는 시간 서버로 사용할 수 없다.
 Chrony는 두개의 프로그램을 포함하는 NTP 구현체이다. **chronyd** daemon과 **chronyc**라고 불리는 command line 인터페이스이다.   
 Chrony는 많은 경우 단순히 대체 할 수 없는 몇 가지 특징을 가진다.
 * Chrony는 예전의 ntpd service에 비해 빠르게 서버를 동기화 시킨다.
+* Chrony는 네트워크 연결 없이도 작동 할 수 있다. 이 경우 로컬 호스트 또는 서버를 수동으로 업데이트 할 수 있다.
+* Chrony는 NTP 서버 역할을 할 수 있다.
 
-### 
+ntpd, chrony, systemd-timesyncd 세개 모두 설치할 수 있지만, 같이 사용할 경우 문제가 될 수 있으니, 다같이 설치하지않는 것이 좋다.
+
+## Disabling NTP Services
+## Check Status before lunch
+## Setting the time zone
+### systemd-timesyncd
+## Configuring systemd-timesyncd
+## Launch timesync
+## Hardware Clock Installation
