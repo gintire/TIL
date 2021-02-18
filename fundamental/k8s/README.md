@@ -55,7 +55,7 @@
    * ~~Resource Requirements and Limits (2021.02.14)~~
    * ~~DaemonSets (2021.02.15)~~
    * ~~Static pods (2021.02.15)~~
-   * Multiple Schedulers (2021.02.15)
+   * Multiple Schedulers (2021.02.18)
    * 
 4. Logging & Monitoring 13분 
 5. Application Lifecycle Management 1시간 31분
