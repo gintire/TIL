@@ -55,9 +55,11 @@
    * ~~Resource Requirements and Limits (2021.02.14)~~
    * ~~DaemonSets (2021.02.15)~~
    * ~~Static pods (2021.02.15)~~
-   * Multiple Schedulers (2021.02.18)
-   * 
+   * ~~Multiple Schedulers (2021.02.18)~~
 4. Logging & Monitoring 13분 
+   * Logging and Monitoring Section Introduction (2021.02.20)
+   * Monitoring Cluster Components (2021.02.20)
+   * Managing Application Logs (2021.02.20)
 5. Application Lifecycle Management 1시간 31분
 6. Cluster Maintenance 1시간 11분
 7. Security 2시간 12분
