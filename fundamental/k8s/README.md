@@ -64,7 +64,7 @@
    * ~~Rolling Updates and Rollbacks (2021.02.21)~~
    * ~~Commands (2021.02.21)~~
    * ~~Commands and Arguments (2021.02.21)~~
-   * Configure Environment Variables in Applications (2021.02.21)
+   * ~~Configure Environment Variables in Applications (2021.02.21)~~
    * Configure ConfigMaps in Applications (2021.02.21)
    * Configure Secrets in Applications
    * Multi Container PODs
