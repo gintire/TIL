@@ -61,8 +61,8 @@
    * ~~Monitoring Cluster Components (2021.02.20)~~
    * ~~Managing Application Logs (2021.02.20)~~
 5. Application Lifecycle Management 1시간 31분
-   * Rolling Updates and Rollbacks (2021.02.21)
-   * Commands (2021.02.21)
+   * ~~Rolling Updates and Rollbacks (2021.02.21)~~
+   * ~~Commands (2021.02.21)~~
    * Commands and Arguments (2021.02.21)
    * Configure Environment Variables in Applications (2021.02.21)
    * Configure ConfigMaps in Applications (2021.02.21)
