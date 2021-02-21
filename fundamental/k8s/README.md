@@ -57,10 +57,19 @@
    * ~~Static pods (2021.02.15)~~
    * ~~Multiple Schedulers (2021.02.18)~~
 4. Logging & Monitoring 13분 
-   * Logging and Monitoring Section Introduction (2021.02.20)
-   * Monitoring Cluster Components (2021.02.20)
-   * Managing Application Logs (2021.02.20)
+   * ~~Logging and Monitoring Section Introduction (2021.02.20)~~
+   * ~~Monitoring Cluster Components (2021.02.20)~~
+   * ~~Managing Application Logs (2021.02.20)~~
 5. Application Lifecycle Management 1시간 31분
+   * Rolling Updates and Rollbacks (2021.02.21)
+   * Commands (2021.02.21)
+   * Commands and Arguments (2021.02.21)
+   * Configure Environment Variables in Applications (2021.02.21)
+   * Configure ConfigMaps in Applications (2021.02.21)
+   * Configure Secrets in Applications
+   * Multi Container PODs
+   * Multi-container PODs Design Patterns
+   * InitContainers
 6. Cluster Maintenance 1시간 11분
 7. Security 2시간 12분
 8. Storage 55분
