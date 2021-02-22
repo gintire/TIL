@@ -66,7 +66,7 @@
    * ~~Commands and Arguments (2021.02.21)~~
    * ~~Configure Environment Variables in Applications (2021.02.21)~~
    * ~~Configure ConfigMaps in Applications (2021.02.21)~~
-   * Configure Secrets in Applications (2021.02.22)
+   * ~~Configure Secrets in Applications (2021.02.22)~~
    * Multi Container PODs (2021.02.22)
    * Multi-container PODs Design Patterns (2021.02.22)
    * InitContainers (2021.02.22)
