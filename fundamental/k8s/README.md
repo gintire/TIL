@@ -67,9 +67,9 @@
    * ~~Configure Environment Variables in Applications (2021.02.21)~~
    * ~~Configure ConfigMaps in Applications (2021.02.21)~~
    * ~~Configure Secrets in Applications (2021.02.22)~~
-   * Multi Container PODs (2021.02.22)
-   * Multi-container PODs Design Patterns (2021.02.22)
-   * InitContainers (2021.02.22)
+   * Multi Container PODs (2021.02.24)
+   * Multi-container PODs Design Patterns (2021.02.24)
+   * InitContainers (2021.02.24)
 6. Cluster Maintenance 1시간 11분
 7. Security 2시간 12분
 8. Storage 55분
