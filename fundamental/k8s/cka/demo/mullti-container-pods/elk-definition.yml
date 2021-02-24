@@ -1,0 +1,55 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app
+  namespace: elastic-stack
+  labels:
+    name: app
+spec:
+  containers:
+    - image: kodekloud/event-simulator
+      imagePullPolicy: Always
+      name: app
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+        - mountPath: /log
+          name: log-volume
+        - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+          name: default-token-mxtsq
+          readOnly: true
+    - image: kodekloud/filebeat-configured
+      name: sidecar
+      volumeMounts:
+        - mountPath: /var/log/event-simulator/
+          name: log-volume
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  nodeName: node01
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 30
+  tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+  volumes:
+    - hostPath:
+      path: /var/log/webapp
+      type: DirectoryOrCreate
+    name: log-volume
+    - name: default-token-mxtsq
+      secret:
+        defaultMode: 420
+        secretName: default-token-mxtsq
