@@ -1,0 +1,8 @@
+# Self Healing Applications
+쿠버네티스는 ReplicaSets와 Replication Controller를 이용하여 application의 자체 회복을 지원한다.
+
+Replication Controller는 application에서 POD가 충돌났을 때, POD가 자동으로 재생성되도록 보장한다.
+
+쿠버네티스는 POD 내에서 실행되는 어플리케이션의 상태를 확인하고 Liveness 및 Readiness Probe를 통해 필요한 조치를 취할 수 있는 추가 지원을 제공한다.
+
+하지만, 이것이 CKA 시험에는 포함되지 않는다. CKAD 시험에 포함된 내용이다.
