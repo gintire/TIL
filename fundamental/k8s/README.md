@@ -71,6 +71,8 @@
    * ~~Multi-container PODs Design Patterns (2021.02.26)~~
    * ~~InitContainers (2021.02.26)~~
 6. Cluster Maintenance 1시간 11분
+   * OS Upgrades (2021.02.27)
+   * Kubernetes Software Version (2021.02.27)
 7. Security 2시간 12분
 8. Storage 55분
 9. Networking 3시간 6분
