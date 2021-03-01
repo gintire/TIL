@@ -74,6 +74,7 @@
    * ~~OS Upgrades (2021.02.27)~~
    * ~~Kubernetes Software Version (2021.02.27)~~
    * ~~Cluster Upgrade Process (2021.03.01)~~
+   * BackUp and Restore Methods (2021.03.01)
 7. Security 2시간 12분
 8. Storage 55분
 9. Networking 3시간 6분
