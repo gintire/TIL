@@ -76,6 +76,22 @@
    * ~~Cluster Upgrade Process (2021.03.01)~~
    * ~~BackUp and Restore Methods (2021.03.01)~~
 7. Security 2시간 12분
+   * ~~Kubernetes Security Primitives ( 2021.03.02 )~~
+   * Authentication
+   * TLS Basics
+   * TLS in Kubernetes
+   * TLS in Kubernetes - Certification Creation
+   * View Certificate Details
+   * Certificate API
+   * KubeConfig
+   * API Groups
+   * Authorization
+   * Role Based Access Controls
+   * Cluster Roles and Role Bindings
+   * Image Security
+   * Security Contexts
+   * Network Policy
+   * Developing network policies
 8. Storage 55분
 9. Networking 3시간 6분
 10. Design and Install a Kubernetes Cluster 32분
