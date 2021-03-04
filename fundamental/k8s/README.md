@@ -77,12 +77,12 @@
    * ~~BackUp and Restore Methods (2021.03.01)~~
 7. Security 2시간 12분
    * ~~Kubernetes Security Primitives ( 2021.03.02 )~~
-   * Authentication
-   * TLS Basics
-   * TLS in Kubernetes
-   * TLS in Kubernetes - Certification Creation
-   * View Certificate Details
-   * Certificate API
+   * Authentication ( 2021.03.04 )
+   * TLS Basics  ( 2021.03.04 )
+   * TLS in Kubernetes  ( 2021.03.04 )
+   * TLS in Kubernetes - Certification Creation  ( 2021.03.04 )
+   * View Certificate Details  ( 2021.03.04 )
+   * Certificate API  ( 2021.03.04 )
    * KubeConfig
    * API Groups
    * Authorization
