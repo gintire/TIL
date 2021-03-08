@@ -83,7 +83,7 @@
    * ~~TLS in Kubernetes - Certification Creation  ( 2021.03.07 )~~
    * ~~View Certificate Details  ( 2021.03.07 )~~
    * ~~Certificate API  ( 2021.03.07 )~~
-   * KubeConfig (2021.03.08)
+   * ~~KubeConfig (2021.03.08)~~
    * API Groups (2021.03.08)
    * Authorization (2021.03.08)
    * Role Based Access Controls (2021.03.08)
