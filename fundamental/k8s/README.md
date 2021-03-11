@@ -89,7 +89,7 @@
    * ~~Role Based Access Controls (2021.03.09)~~
    * ~~Cluster Roles and Role Bindings (2021.03.10)~~
    * ~~Image Security (2021.03.11)~~
-   * Security Contexts (2021.03.11)
+   * ~~Security Contexts (2021.03.11)~~
    * Network Policy (2021.03.11)
    * Developing network policies (2021.03.11)
 8. Storage 55분
