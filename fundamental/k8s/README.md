@@ -90,8 +90,8 @@
    * ~~Cluster Roles and Role Bindings (2021.03.10)~~
    * ~~Image Security (2021.03.11)~~
    * ~~Security Contexts (2021.03.11)~~
-   * Network Policy (2021.03.14)
-   * Developing network policies (2021.03.14)
+   * ~~Network Policy (2021.03.15)~~
+   * Developing network policies (2021.03.15)
 8. Storage 55분
 9. Networking 3시간 6분
 10. Design and Install a Kubernetes Cluster 32분
