@@ -91,8 +91,10 @@
    * ~~Image Security (2021.03.11)~~
    * ~~Security Contexts (2021.03.11)~~
    * ~~Network Policy (2021.03.15)~~
-   * Developing network policies (2021.03.15)
+   * ~~Developing network policies (2021.03.15)~~
 8. Storage 55분
+   * Storage in Docker
+   * Volume Driver Plugins in Docker
 9. Networking 3시간 6분
 10. Design and Install a Kubernetes Cluster 32분
 11. Install "Kubernetes the kubeadm way" 29분
