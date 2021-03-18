@@ -95,6 +95,11 @@
 8. Storage 55분
    * Storage in Docker
    * Volume Driver Plugins in Docker
+   * Container Storage Interface (CSI)
+   * Volumes
+   * Persistent Volumes
+   * Persistent Volume Claims
+   * Storage Class
 9. Networking 3시간 6분
 10. Design and Install a Kubernetes Cluster 32분
 11. Install "Kubernetes the kubeadm way" 29분
