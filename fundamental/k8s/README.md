@@ -93,8 +93,8 @@
    * ~~Network Policy (2021.03.15)~~
    * ~~Developing network policies (2021.03.15)~~
 8. Storage 55분
-   * Storage in Docker
-   * Volume Driver Plugins in Docker
+   * ~~Storage in Docker (2021.03.19)~~
+   * Volume Driver Plugins in Docker (2021.03.20)
    * Container Storage Interface (CSI)
    * Volumes
    * Persistent Volumes
