@@ -94,12 +94,12 @@
    * ~~Developing network policies (2021.03.15)~~
 8. Storage 55분
    * ~~Storage in Docker (2021.03.19)~~
-   * Volume Driver Plugins in Docker (2021.03.20)
-   * Container Storage Interface (CSI)
-   * Volumes
-   * Persistent Volumes
-   * Persistent Volume Claims
-   * Storage Class
+   * ~~Volume Driver Plugins in Docker (2021.03.20)~~
+   * Container Storage Interface (CSI) (2021.03.20)
+   * Volumes (2021.03.20)
+   * Persistent Volumes (2021.03.20)
+   * Persistent Volume Claims (2021.03.20)
+   * Storage Class (2021.03.20)
 9. Networking 3시간 6분
 10. Design and Install a Kubernetes Cluster 32분
 11. Install "Kubernetes the kubeadm way" 29분
