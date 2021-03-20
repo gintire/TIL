@@ -96,7 +96,7 @@
    * ~~Storage in Docker (2021.03.19)~~
    * ~~Volume Driver Plugins in Docker (2021.03.20)~~
    * ~~Container Storage Interface (CSI) (2021.03.20)~~
-   * Volumes (2021.03.20)
+   * ~~Volumes (2021.03.20)~~
    * Persistent Volumes (2021.03.20)
    * Persistent Volume Claims (2021.03.20)
    * Storage Class (2021.03.20)
