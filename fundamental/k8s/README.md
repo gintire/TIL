@@ -97,9 +97,9 @@
    * ~~Volume Driver Plugins in Docker (2021.03.20)~~
    * ~~Container Storage Interface (CSI) (2021.03.20)~~
    * ~~Volumes (2021.03.20)~~
-   * Persistent Volumes (2021.03.22)
-   * Persistent Volume Claims (2021.03.22)
-   * Storage Class (2021.03.22)
+   * ~~Persistent Volumes (2021.03.23)~~
+   * Persistent Volume Claims (2021.03.23)
+   * Storage Class (2021.03.23)
 9. Networking 3시간 6분
 10. Design and Install a Kubernetes Cluster 32분
 11. Install "Kubernetes the kubeadm way" 29분
