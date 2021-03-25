@@ -114,7 +114,7 @@
    * IP Address Management - Weave (2021.03.27)
    * Service Networking (2021.03.27)
    * DNS in kubernetes (2021.03.27)
-   * CoreDNS in Kubernetes (2021.03.28)
+   * CoreDNS in Kubernetes (2021.03.27)
    * Ingress (2021.03.28)
    * Ingress - Annotations and rewrite-target (2021.03.28)
 10. Design and Install a Kubernetes Cluster 32분
