@@ -102,21 +102,21 @@
    * ~~Storage Class (2021.03.24)~~
 9. Networking 3시간 6분
    * ~~Prerequisite - Switching Routing (2021.03.29)~~
-   * Prerequisite - DNS (2021.03.30)
-   * Prerequisite - CoreDNS (2021.03.30)
-   * Prerequisite - Network Namespaces (2021.03.30)
-   * Prerequisite - Docker Networking (2021.03.30)
-   * Prerequisite - CNI (2021.03.31)
-   * Cluster Networking (2021.03.31)
-   * Pod Networking (2021.03.31)
-   * CNI in kubernetes (2021.03.32)
-   * CNI weave (2021.03.32)
-   * IP Address Management - Weave (2021.03.32)
-   * Service Networking (2021.03.32)
-   * DNS in kubernetes (2021.03.32)
-   * CoreDNS in Kubernetes (2021.03.32)
-   * Ingress (2021.04.01)
-   * Ingress - Annotations and rewrite-target (2021.04.01)
+   * ~~Prerequisite - DNS (2021.03.30)~~
+   * ~~Prerequisite - CoreDNS (2021.03.30)~~
+   * ~~Prerequisite - Network Namespaces (2021.03.30)~~
+   * ~~Prerequisite - Docker Networking (2021.04.06)~~
+   * Prerequisite - CNI (2021.04.07)
+   * Cluster Networking (2021.04.07)
+   * Pod Networking (2021.04.07)
+   * CNI in kubernetes (2021.04.07)
+   * CNI weave (2021.04.07)
+   * IP Address Management - Weave (2021.04.08)
+   * Service Networking (2021.04.08)
+   * DNS in kubernetes (2021.04.08)
+   * CoreDNS in Kubernetes (2021.04.08)
+   * Ingress (2021.04.09)
+   * Ingress - Annotations and rewrite-target (2021.04.09)
 10. Design and Install a Kubernetes Cluster 32분
 11. Install "Kubernetes the kubeadm way" 29분
 12. End to End Tests on a Kubernetes Cluster 1분
