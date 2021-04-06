@@ -106,8 +106,8 @@
    * ~~Prerequisite - CoreDNS (2021.03.30)~~
    * ~~Prerequisite - Network Namespaces (2021.03.30)~~
    * ~~Prerequisite - Docker Networking (2021.04.06)~~
-   * Prerequisite - CNI (2021.04.07)
-   * Cluster Networking (2021.04.07)
+   * ~~Prerequisite - CNI (2021.04.06)~~
+   * ~~Cluster Networking (2021.04.06)~~
    * Pod Networking (2021.04.07)
    * CNI in kubernetes (2021.04.07)
    * CNI weave (2021.04.07)
