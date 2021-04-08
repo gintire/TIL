@@ -108,15 +108,15 @@
    * ~~Prerequisite - Docker Networking (2021.04.06)~~
    * ~~Prerequisite - CNI (2021.04.06)~~
    * ~~Cluster Networking (2021.04.06)~~
-   * Pod Networking (2021.04.07)
-   * CNI in kubernetes (2021.04.07)
-   * CNI weave (2021.04.07)
-   * IP Address Management - Weave (2021.04.08)
-   * Service Networking (2021.04.08)
-   * DNS in kubernetes (2021.04.08)
-   * CoreDNS in Kubernetes (2021.04.08)
-   * Ingress (2021.04.09)
-   * Ingress - Annotations and rewrite-target (2021.04.09)
+   * Pod Networking (2021.04.08)
+   * CNI in kubernetes (2021.04.08)
+   * CNI weave (2021.04.08)
+   * IP Address Management - Weave (2021.04.09)
+   * Service Networking (2021.04.09)
+   * DNS in kubernetes (2021.04.09)
+   * CoreDNS in Kubernetes (2021.04.09)
+   * Ingress (2021.04.10)
+   * Ingress - Annotations and rewrite-target (2021.04.10)
 10. Design and Install a Kubernetes Cluster 32분
 11. Install "Kubernetes the kubeadm way" 29분
 12. End to End Tests on a Kubernetes Cluster 1분
