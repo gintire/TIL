@@ -108,8 +108,8 @@
    * ~~Prerequisite - Docker Networking (2021.04.06)~~
    * ~~Prerequisite - CNI (2021.04.06)~~
    * ~~Cluster Networking (2021.04.06)~~
-   * Pod Networking (2021.04.08)
-   * CNI in kubernetes (2021.04.08)
+   * ~~Pod Networking (2021.04.08)~~
+   * ~~CNI in kubernetes (2021.04.08)~~
    * CNI weave (2021.04.08)
    * IP Address Management - Weave (2021.04.09)
    * Service Networking (2021.04.09)
