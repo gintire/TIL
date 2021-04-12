@@ -110,13 +110,13 @@
    * ~~Cluster Networking (2021.04.06)~~
    * ~~Pod Networking (2021.04.08)~~
    * ~~CNI in kubernetes (2021.04.08)~~
-   * CNI weave (2021.04.08)
-   * IP Address Management - Weave (2021.04.09)
-   * Service Networking (2021.04.09)
-   * DNS in kubernetes (2021.04.09)
-   * CoreDNS in Kubernetes (2021.04.09)
-   * Ingress (2021.04.10)
-   * Ingress - Annotations and rewrite-target (2021.04.10)
+   * CNI weave (2021.04.12)
+   * IP Address Management - Weave (2021.04.12)
+   * Service Networking (2021.04.12)
+   * DNS in kubernetes (2021.04.12)
+   * CoreDNS in Kubernetes (2021.04.13)
+   * Ingress (2021.04.13)
+   * Ingress - Annotations and rewrite-target (2021.04.13)
 10. Design and Install a Kubernetes Cluster 32분
 11. Install "Kubernetes the kubeadm way" 29분
 12. End to End Tests on a Kubernetes Cluster 1분
