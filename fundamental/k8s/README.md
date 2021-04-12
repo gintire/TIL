@@ -110,7 +110,7 @@
    * ~~Cluster Networking (2021.04.06)~~
    * ~~Pod Networking (2021.04.08)~~
    * ~~CNI in kubernetes (2021.04.08)~~
-   * CNI weave (2021.04.12)
+   * ~~CNI weave (2021.04.12)~~
    * IP Address Management - Weave (2021.04.12)
    * Service Networking (2021.04.12)
    * DNS in kubernetes (2021.04.12)
