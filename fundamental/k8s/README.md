@@ -115,8 +115,8 @@
    * ~~Service Networking (2021.04.14)~~
    * ~~DNS in kubernetes (2021.04.19)~~
    * ~~CoreDNS in Kubernetes (2021.04.19)~~
-   * Ingress (2021.04.19)
-   * Ingress - Annotations and rewrite-target (2021.04.15)
+   * ~~Ingress (2021.04.22)~~
+   * ~~Ingress - Annotations and rewrite-target (2021.04.23)~~
 10. Design and Install a Kubernetes Cluster 32분
 11. Install "Kubernetes the kubeadm way" 29분
 12. End to End Tests on a Kubernetes Cluster 1분
