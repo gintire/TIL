@@ -118,6 +118,10 @@
    * ~~Ingress (2021.04.22)~~
    * ~~Ingress - Annotations and rewrite-target (2021.04.23)~~
 10. Design and Install a Kubernetes Cluster 32분
+   * Design a Kubernetes Cluster
+   * Choosing Kubernetes Infrastructure
+   * Configure High Avalibility
+   * ETCD in HA
 11. Install "Kubernetes the kubeadm way" 29분
 12. End to End Tests on a Kubernetes Cluster 1분
 13. Troubleshooting 1시간
