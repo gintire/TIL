@@ -123,9 +123,15 @@
    * Configure High Avalibility
    * ETCD in HA
 11. Install "Kubernetes the kubeadm way" 29분
+   * Deploy with Kubeadm - Provision VMs with Vagrant
 12. End to End Tests on a Kubernetes Cluster 1분
 13. Troubleshooting 1시간
+   * Application Failure
+   * Control Plane Failure
+   * Worker Node Failure
+   * Network Troubleshooting
 14. Other Topics 13분
+   * Advanced Kubectl Commands
 15. Lightning Labs 1분
 16. Mock Exams 1시간 56분
 17. Course Conclusion 1분
