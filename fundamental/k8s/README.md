@@ -123,7 +123,7 @@
    * ~~Configure High Availability (2021.04.27)~~ 
    * ~~ETCD in HA (2021.04.27)~~
 11. Install "Kubernetes the kubeadm way" 29분
-   * Deploy with Kubeadm - Provision VMs with Vagrant
+   * ~~Deploy with Kubeadm - Provision VMs with Vagrant~~
 12. End to End Tests on a Kubernetes Cluster 1분
 13. Troubleshooting 1시간
    * Application Failure
