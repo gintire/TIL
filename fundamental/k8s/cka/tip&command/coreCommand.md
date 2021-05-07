@@ -5,4 +5,9 @@ deployment : `kubectl get -n <namespace> deployment. <name> -o yaml > <name>.yam
 ### yaml 파일 생성
 pods : `kubectl run pods <name> --dry-run=client -o yaml --image=<image_name> > <name>.yaml`
 
+### Cluster info 확인
 
+마스터 노드에서 cluster info 확인
+```
+kubectl cluster-info
+```
