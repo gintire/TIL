@@ -3,8 +3,10 @@ package jython;
 import org.junit.Assert;
 import org.junit.Test;
 
+import org.mockito.internal.matchers.Null;
 import org.python.core.PyObject;
 import org.python.util.PythonInterpreter;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import javax.script.ScriptContext;
 import javax.script.ScriptEngine;
@@ -13,6 +15,7 @@ import javax.script.SimpleScriptContext;
 import java.io.File;
 import java.io.FileReader;
 import java.io.StringWriter;
+import java.util.HashMap;
 
 /**
  * Project: library
@@ -63,5 +66,11 @@ public class JythonTest {
             PyObject x = pyInterp.get("x");
             Assert.assertEquals("x: ", 20, x.asInt());
         }
+    }
+    @Test
+    public void compile_when_no_key() {
+        HashMap map = new HashMap();
+        map.put("a", "b");
+        System.out.println(map.get("b"));
     }
 }
